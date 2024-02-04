@@ -54,7 +54,7 @@ pipeline {
                     protocol: 'http',
                     //nexusUrl: "${env.nexusURL}",
                     nexusUrl: "${params.nexusURL}",
-                    groupId: 'com.robotshop',
+                    groupId: 'com.roboshop',
                     version: "${packageVersion}", //Updates nexus repository with new sematic version
                     repository: 'catalogue',
                     credentialsId: 'nexus-auth', //Congifure inside manage credentials section

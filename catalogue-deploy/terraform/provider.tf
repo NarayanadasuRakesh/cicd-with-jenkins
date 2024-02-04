@@ -6,10 +6,10 @@ terraform {
     }
   }
   backend "s3" {
-    bucket         = "robotshop-jenkins-dev"
+    bucket         = "roboshop-jenkins-dev"
     key            = "catalogue"
     region         = "us-east-1"
-    dynamodb_table = "robotshop-jenkins-dev"
+    dynamodb_table = "roboshop-jenkins-dev"
   }
 }
 

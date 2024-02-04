@@ -1,14 +1,14 @@
 variable "common_tags" {
   type = map
   default = {
-    Project     = "robotshop"
+    Project     = "roboshop"
     Environment = "dev"
     Terraform   = true
   }
 }
 
 variable "project_name" {
-  default = "robotshop"
+  default = "roboshop"
 }
 
 variable "environment" {
